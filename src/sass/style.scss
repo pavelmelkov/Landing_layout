@@ -1,0 +1,13 @@
+@import "base/variables";
+@import "base/mixins";
+* {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+h1 {
+  padding-top: 80px;
+  color: $main-color;
+}
